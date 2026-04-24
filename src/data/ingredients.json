@@ -1,0 +1,272 @@
+[
+  {
+    "id": "sugar",
+    "names": ["şeker", "pancar şekeri", "sakkaroz", "beyaz şeker", "esmer şeker"],
+    "score": 65,
+    "description": "Aşırı tüketimi obezite, tip 2 diyabet ve diş çürüklerine yol açar."
+  },
+  {
+    "id": "glucose_syrup",
+    "names": ["glikoz şurubu", "mısır şurubu", "fruktoz şurubu", "yüksek fruktozlu mısır şurubu", "hfcs"],
+    "score": 85,
+    "description": "Doğal şekere göre karaciğeri daha çok yorar, insülin direncini ve yağlanmayı hızlandırır."
+  },
+  {
+    "id": "palm_oil",
+    "names": ["palm yağı", "palmiye yağı", "bitkisel yağ (palm)"],
+    "score": 75,
+    "description": "Yüksek oranda doymuş yağ içerir. Kalp ve damar hastalıkları riskini artırabilir. Ayrıca çevresel etkileri (ormansızlaşma) yüksektir."
+  },
+  {
+    "id": "msg",
+    "names": ["monosodyum glutamat", "e621", "msg", "çine tuzu"],
+    "score": 80,
+    "description": "Lezzet artırıcıdır. Baş ağrısı, çarpıntı yapabilir ve tokluk hissini engelleyerek aşırı yemeye neden olur."
+  },
+  {
+    "id": "aspartame",
+    "names": ["aspartam", "e951", "yapay tatlandırıcı (aspartam)"],
+    "score": 85,
+    "description": "Sıfır kalorili yapay tatlandırıcıdır. Bağırsak florasını bozabilir, uzun vadeli etkileri tartışmalıdır."
+  },
+  {
+    "id": "sucralose",
+    "names": ["sukraloz", "e955", "splenda"],
+    "score": 70,
+    "description": "Yapay tatlandırıcıdır. İnsülin dengesini etkileyebileceğine dair çalışmalar vardır."
+  },
+  {
+    "id": "sodium_nitrite",
+    "names": ["sodyum nitrit", "e250", "sodyum nitrat", "e251"],
+    "score": 95,
+    "description": "İşlenmiş et ürünlerinde (sosis, salam) sıkça kullanılır. Kanserojen nitrozaminlere dönüşme riski yüksektir."
+  },
+  {
+    "id": "carrageenan",
+    "names": ["karragenan", "e407", "karagenan"],
+    "score": 75,
+    "description": "Kıvam artırıcıdır. Sindirim sistemi iltihaplanmalarına ve bağırsak sorunlarına yol açabileceği iddia edilmektedir."
+  },
+  {
+    "id": "titanium_dioxide",
+    "names": ["titanyum dioksit", "e171", "titanyum oksit"],
+    "score": 90,
+    "description": "Beyazlatıcı renklendiricidir. Avrupa Birliği'nde gıdalarda kullanımı DNA hasarı riski nedeniyle yasaklanmıştır."
+  },
+  {
+    "id": "sodium_benzoate",
+    "names": ["sodyum benzoat", "e211"],
+    "score": 80,
+    "description": "Koruyucu maddedir. C vitamini ile birleştiğinde kanserojen olan benzene dönüşebilir."
+  },
+  {
+    "id": "potassium_sorbate",
+    "names": ["potasyum sorbat", "e202"],
+    "score": 40,
+    "description": "Mantar ve küf önleyici koruyucudur. Nispeten güvenli kabul edilse de bazı kişilerde alerji yapabilir."
+  },
+  {
+    "id": "citric_acid",
+    "names": ["sitrik asit", "e330", "limon tuzu"],
+    "score": 20,
+    "description": "Asitlik düzenleyicidir. Genellikle güvenlidir ancak aşırı tüketimi diş minesine zarar verebilir."
+  },
+  {
+    "id": "tartrazine",
+    "names": ["tartrazin", "e102"],
+    "score": 85,
+    "description": "Sarı renklendiricidir. Çocuklarda hiperaktiviteye ve alerjik reaksiyonlara neden olabilir."
+  },
+  {
+    "id": "allura_red",
+    "names": ["allura red", "e129", "allura kırmızısı"],
+    "score": 85,
+    "description": "Kırmızı renklendiricidir. Çocuklarda dikkat eksikliği ve hiperaktivite ile ilişkilendirilmektedir."
+  },
+  {
+    "id": "sunflower_oil",
+    "names": ["ayçiçek yağı", "bitkisel yağ (ayçiçek)", "ayçiçeği yağı"],
+    "score": 50,
+    "description": "Omega-6 oranı yüksektir, aşırı tüketimi vücutta iltihaplanmayı (enflamasyon) tetikleyebilir."
+  },
+  {
+    "id": "wheat_flour",
+    "names": ["buğday unu", "un", "beyaz un", "buğday", "tip 550 un"],
+    "score": 40,
+    "description": "Rafine karbonhidrattır. Kan şekerini hızla yükseltir, besin değeri düşüktür. Gluten içerir."
+  },
+  {
+    "id": "whole_wheat_flour",
+    "names": ["tam buğday unu", "kepekli un"],
+    "score": 20,
+    "description": "Lifli yapısı sayesinde beyaz una göre daha sağlıklıdır."
+  },
+  {
+    "id": "soy_lecithin",
+    "names": ["soya lesitini", "e322", "lesitin"],
+    "score": 30,
+    "description": "Emülgatördür. Genelde GDO'lu soyadan üretildiği için endişe yaratır, ancak katkı maddesi olarak zararı düşüktür."
+  },
+  {
+    "id": "maltodextrin",
+    "names": ["maltodekstrin"],
+    "score": 70,
+    "description": "Kan şekerini sofra şekerinden bile daha hızlı yükseltebilen bir karbonhidrattır."
+  },
+  {
+    "id": "bha_bht",
+    "names": ["bha", "e320", "bht", "e321", "bütillendirilmiş hidroksianisol"],
+    "score": 85,
+    "description": "Yağların acılaşmasını önleyen sentetik antioksidanlardır. Kanserojen olabileceğine dair şüpheler vardır."
+  },
+  {
+    "id": "invert_sugar",
+    "names": ["invert şeker şurubu", "invert şeker"],
+    "score": 70,
+    "description": "Sıvı formdaki bir şeker türevidir. Obezite ve diyabet riskini artırır."
+  },
+  {
+    "id": "cacao",
+    "names": ["kakao kitlesi", "kakao tozu", "yağı azaltılmış kakao tozu", "kakao"],
+    "score": 10,
+    "description": "Doğal ve faydalı bir antioksidan kaynağıdır."
+  },
+  {
+    "id": "cacao_butter",
+    "names": ["kakao yağı"],
+    "score": 15,
+    "description": "Çikolatanın doğal yağıdır, sağlıklıdır."
+  },
+  {
+    "id": "milk_powder",
+    "names": ["süt tozu", "süttozu", "tam yağlı süt tozu", "tam yağlı süttozu", "yağsız süt tozu", "yağsız süttozu", "peynir altı suyu tozu", "whey"],
+    "score": 30,
+    "description": "Süt proteini kaynağıdır ancak bazen işlem görmüş ve laktoz oranı yüksektir."
+  },
+  {
+    "id": "hazelnut",
+    "names": ["fındık", "fındık püresi"],
+    "score": 5,
+    "description": "Sağlıklı yağlar ve protein içeren doğal besindir."
+  },
+  {
+    "id": "salt",
+    "names": ["tuz", "iyotlu tuz", "deniz tuzu"],
+    "score": 55,
+    "description": "Aşırı tüketimi yüksek tansiyona ve böbrek rahatsızlıklarına neden olabilir."
+  },
+  {
+    "id": "vanillin",
+    "names": ["vanilin", "aroma verici (vanilin)"],
+    "score": 35,
+    "description": "Yapay vanilya aromasıdır. Sentetiktir ancak bilinen ciddi bir zararı yoktur."
+  },
+  {
+    "id": "flavorings",
+    "names": ["aroma vericiler", "doğayla özdeş aromalar", "aroma", "doğal aroma verici"],
+    "score": 45,
+    "description": "İçeriği tam bilinmeyen kimyasal kokular veya tatlardır. Alerjik reaksiyonlara neden olabilir."
+  },
+  {
+    "id": "guar_gum",
+    "names": ["guar gam", "e412", "guar sakızı"],
+    "score": 25,
+    "description": "Bitkisel kaynaklı kıvam artırıcıdır. Yüksek dozda gaz ve şişkinlik yapabilir."
+  },
+  {
+    "id": "xanthan_gum",
+    "names": ["ksantan gam", "e415", "ksantan sakızı"],
+    "score": 25,
+    "description": "Bakteriyel fermantasyonla elde edilen kıvam artırıcıdır. Sindirim sorunları yaratabilir."
+  },
+  {
+    "id": "water",
+    "names": ["su", "içme suyu", "saf su"],
+    "score": 0,
+    "description": "Vücut için en temel, tamamen doğal ve yaşamsal sıvıdır. Hiçbir risk taşımaz."
+  },
+  {
+    "id": "milk",
+    "names": ["süt", "pastörize süt", "inek sütü", "tam yağlı süt", "yarım yağlı süt"],
+    "score": 5,
+    "description": "Doğal bir protein ve kalsiyum kaynağıdır. (Laktoz intoleransınız yoksa son derece faydalıdır.)"
+  },
+  {
+    "id": "egg",
+    "names": ["yumurta", "pastörize yumurta", "yumurta akı", "yumurta sarısı"],
+    "score": 5,
+    "description": "En kaliteli doğal protein kaynaklarından biridir. Oldukça faydalı ve temiz bir içeriktir."
+  },
+  {
+    "id": "peanut",
+    "names": ["yer fıstığı", "fıstık", "yerfıstığı", "kavrulmuş yer fıstığı"],
+    "score": 5,
+    "description": "Sağlıklı bitkisel yağlar ve protein içeren doğal bir kuruyemiştir. (Alerjisi olanlar dikkat etmelidir.)"
+  },
+  {
+    "id": "pistachio",
+    "names": ["antep fıstığı", "kavrulmuş antep fıstığı", "boz fıstık"],
+    "score": 0,
+    "description": "Kalp sağlığını destekleyen, doğal ve oldukça faydalı bir antioksidan/kuruyemiş kaynağıdır."
+  },
+  {
+    "id": "walnut",
+    "names": ["ceviz", "ceviz içi"],
+    "score": 0,
+    "description": "Beyin fonksiyonlarını destekleyen ve Omega-3 içeren muhteşem bir doğal besindir."
+  },
+  {
+    "id": "olive_oil",
+    "names": ["zeytinyağı", "sızma zeytinyağı", "natürel sızma zeytinyağı"],
+    "score": 0,
+    "description": "En sağlıklı doğal yağlardan biridir. Kalp dostudur ve güçlü antioksidanlar içerir."
+  },
+  {
+    "id": "butter",
+    "names": ["tereyağı", "süt yağı", "tereyağ"],
+    "score": 15,
+    "description": "Doğal bir hayvansal yağdır. Ölçülü tüketildiğinde vitamin emilimine ve sağlığa katkı sağlar."
+  },
+  {
+    "id": "oat",
+    "names": ["yulaf", "yulaf ezmesi", "yulaf unu"],
+    "score": 5,
+    "description": "Yüksek lif oranına sahip, sindirimi düzenleyen ve kan şekerini dengeleyen çok sağlıklı bir tahıldır."
+  },
+  {
+    "id": "almond",
+    "names": ["badem", "çiğ badem", "kavrulmuş badem"],
+    "score": 0,
+    "description": "E vitamini ve sağlıklı yağlar açısından çok zengin, kalp dostu doğal bir kuruyemiştir."
+  },
+  {
+    "id": "generic_vegetable_oil",
+    "names": ["bitkisel yağ", "bitkisel yağlar", "nebati yağ", "nebati yağlar"],
+    "score": 60,
+    "description": "Türünün belirtilmediği bitkisel yağlar genellikle ucuz ve yüksek oranda işlenmiş (örn. palm veya pamuk) yağların karışımıdır. Vücutta enflamasyonu artırabilir."
+  },
+  {
+    "id": "canola_oil",
+    "names": ["kanola yağı", "kolza yağı"],
+    "score": 65,
+    "description": "Endüstriyel olarak aşırı işlem gören bir yağdır. Isıtıldığında trans yağ asitlerine dönüşme riski vardır."
+  },
+  {
+    "id": "corn_oil",
+    "names": ["mısır özü yağı", "mısır yağı"],
+    "score": 55,
+    "description": "Omega-6 oranı çok yüksektir. Aşırı tüketimi Omega-3/Omega-6 dengesini bozarak hücresel iltihaplanmaya yol açabilir."
+  },
+  {
+    "id": "soybean_oil",
+    "names": ["soya yağı"],
+    "score": 60,
+    "description": "Çoğunlukla GDO'lu soyalardan elde edilen, yüksek oranda işlenmiş bir yağdır. Enflamatuar özellik gösterebilir."
+  },
+  {
+    "id": "cottonseed_oil",
+    "names": ["pamuk yağı", "pamuk çiğidi yağı"],
+    "score": 75,
+    "description": "Gıda amaçlı olmayan pamuk bitkisinden elde edildiği için tarım ilacı (pestisit) kalıntıları barındırma riski çok yüksektir. Mümkün olduğunca kaçınılmalıdır."
+  }
+]

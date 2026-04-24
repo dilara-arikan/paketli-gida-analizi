@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #f8fafc;
+    --text-primary: #0f172a;
+    --bg-gradient-1: rgba(216, 251, 222, 1); /* Greenish accent light */
+    --bg-gradient-2: rgba(224, 242, 254, 0.5);
+    --bg-gradient-3: rgba(254, 226, 226, 0.5);
+    --glass-bg: rgba(255, 255, 255, 0.8);
+    --glass-border: rgba(255, 255, 255, 0.6);
+    --glass-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  }
+
+  .dark {
+    --bg-primary: #0f172a;
+    --text-primary: #f8fafc;
+    --bg-gradient-1: hsla(142, 70%, 15%, 1); /* Dark green accent */
+    --bg-gradient-2: hsla(225, 39%, 30%, 0.5);
+    --bg-gradient-3: hsla(339, 49%, 30%, 0.5);
+    --glass-bg: rgba(30, 41, 59, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    background-image: 
+      radial-gradient(at 0% 0%, var(--bg-gradient-1) 0, transparent 50%), 
+      radial-gradient(at 50% 0%, var(--bg-gradient-2) 0, transparent 50%), 
+      radial-gradient(at 100% 0%, var(--bg-gradient-3) 0, transparent 50%);
+    background-attachment: fixed;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background-color: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+  }
+}
+
