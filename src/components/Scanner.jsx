@@ -100,6 +100,12 @@ const Scanner = ({ onAnalyze, isAnalyzing }) => {
             placeholder="İçindekiler listesini virgülle ayırarak girin... (Örn: Şeker, Glikoz şurubu, Palm yağı, E250)"
             value={manualText}
             onChange={(e) => setManualText(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                handleManualSubmit(e);
+              }
+            }}
           ></textarea>
           <button 
             type="submit"
