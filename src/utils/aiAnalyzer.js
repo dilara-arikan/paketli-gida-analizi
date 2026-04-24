@@ -216,6 +216,14 @@ Analiz edilecek maddeler: ${aiPromptList}`;
     const itemScoreContribution = (weight / 100) * resultItem.data.score;
     totalScore += itemScoreContribution;
 
+    // YENİ: Katkı Maddesi Ceza Sistemi
+    // Miktarı (ağırlığı) ne kadar az olursa olsun, zararlı bir madde varsa ekstra risk ekliyoruz.
+    if (resultItem.data.score >= 75) {
+      totalScore += 8; // Çok zararlı/kanserojen maddelere sert ceza
+    } else if (resultItem.data.score >= 55) {
+      totalScore += 4; // Orta zararlı katkılara hafif ceza
+    }
+
     analyzedItems.push({
       name: resultItem.data.name,
       weight: weight.toFixed(1),
@@ -228,7 +236,17 @@ Analiz edilecek maddeler: ${aiPromptList}`;
   totalScore = Math.min(100, Math.max(0, totalScore));
   
   // KULLANICIYA GÖSTERİLECEK TEMİZLİK SKORU
-  const cleanScore = Math.round(100 - totalScore);
+  let cleanScore = Math.round(100 - totalScore);
+
+  // YENİ: Zehir (Tavan) Sınırlandırması
+  // Eğer ürünün içinde 85 ve üzeri riskli çok tehlikeli bir madde varsa, 
+  // ürünün temizlik skoru ASLA %40'ı geçemez (Ne kadar doğal fıstık içerdiği önemsizdir).
+  const highestRisk = Math.max(...dbResults.map(r => r.data.score));
+  if (highestRisk >= 85 && cleanScore > 35) {
+    cleanScore = 35; 
+  } else if (highestRisk >= 70 && cleanScore > 49) {
+    cleanScore = 49; 
+  }
 
   // Temizlik Sınıfı Belirleme
   let riskLevel = "Tamamen Doğal İçerikli Ürün";
